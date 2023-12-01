@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+body {
+  background-color: #3498db;
+  color: white;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.task-item {
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-item.completed {
+  background-color: #e0e0e0; /* Puedes cambiar el color de fondo para las tareas completadas si lo deseas */
+}
+
+.task-name {
+  color: #000; /* Color del texto para el nombre de la tarea */
+  font-weight: bold;
+  margin-bottom: 8px; /* Ajusta el margen inferior según tu preferencia */
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item {
+  color: #000; /* Color del texto para la información adicional */
+}
+
+.completed-message {
+  color: green; /* Puedes cambiar el color del mensaje de tarea completada según tu preferencia */
+  font-weight: bold;
+  margin-top: 5px; /* Ajusta el margen superior según tu preferencia */
+}
